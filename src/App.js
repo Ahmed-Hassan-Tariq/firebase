@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import {getAuth, signInWithPopup, GoogleAuthProvider, signOut} from 'firebase/auth';
+import {getAuth, signInWithPopup, GoogleAuthProvider} from 'firebase/auth';
 import initializeAuthentication from './Firebase/firebase.init';
 
 
